@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.CadastroInicial">
+
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Por favor, selecione as opções abaixo corretamente
+para uma maior precisão no resultado"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Com qual gênero você se identifica?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner_sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Informe a altura em CM?"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:hint="@string/_180" />
+
+
+    <TextView
+        android:id="@+id/txtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Qual o seu peso em kg?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+        android:id="@+id/pesoInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:hint="@string/_80" />
+
+
+    <TextView
+        android:id="@+id/txtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Qual a sua idade?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+        android:id="@+id/editIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:hint="25" />
+
+
+    <Button
+            android:id="@+id/btSalvarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp"
+        android:text="Salvar Dados"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/logout" />
+
+</LinearLayout>
+

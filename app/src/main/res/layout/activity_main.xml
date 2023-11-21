@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/userDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello" />
+        <Button
+            android:id="@+id/buttonCadastrarMedidasIniciais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cadastrar Medidas"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/buttonCadastrarMedidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cadastrar Medidas"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/buttonListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Listar"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/buttonAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Alterar"
+            android:layout_gravity="center" />
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Logout"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

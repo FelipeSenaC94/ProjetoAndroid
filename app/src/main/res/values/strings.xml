@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitApp</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="registrar">Registrar</string>
+    <string name="clique_aqui_para_logar">Clique aqui para logar</string>
+    <string name="clique_aqui_para_registrar">Clique aqui para registrar</string>
+    <string name="logout">Logout</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="insira_a_altura_exemplo_180">Insira a altura. Exemplo: 180</string>
+    <string name="peso">peso</string>
+
+    <string name="_1_80">1,80</string>
+    <string name="_80">80</string>
+    <string name="_180">180</string>
+</resources>

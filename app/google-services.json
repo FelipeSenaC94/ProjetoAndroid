@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962553372048",
+    "project_id": "fitness-app-f0400",
+    "storage_bucket": "fitness-app-f0400.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962553372048:android:1c3a0f76a825f00305a715",
+        "android_client_info": {
+          "package_name": "com.example.fitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiL_L8g-cd6uqXxEnx0OyXnazKanLZLTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962553372048:android:c8974bb3fc75959b05a715",
+        "android_client_info": {
+          "package_name": "com.sena.fitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiL_L8g-cd6uqXxEnx0OyXnazKanLZLTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
